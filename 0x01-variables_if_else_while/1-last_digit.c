@@ -2,27 +2,36 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - print a text according to number
-*
-* Return: Always (Success);
-*/
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int n, lastd;
+int n, s;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-lastd = n % 10;
-if (lastd > 5)
+/* your code goes there */
+s = n % 10;
+if (s > 5)
 {
-printf("last digit of %d is %d and is greater than 5\n", n, lastd);
+printf("Last digit of %d is %d and is greater than 5\n", n, s);
 }
-else if (lastd == 0)
+<<<<<<< HEAD
+if (num == 0)
+=======
+else if (s == 0)
+>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
 {
-printf("last digit of %d is %d and is 0\n", n, lastd);
+printf("Last digit of %d is %d and is 0\n", n, s);
 }
-else if (lastd < 6 && lastd != 0)
+<<<<<<< HEAD
+if (num < 6)
+=======
+else if (s < 6)
+>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
 {
-printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, s);
 }
 return (0);
 }
