@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - lowercase alphabet except e and q
+* main - print some letter of alphabet
 *
 * Return: Always (Success)
 */
@@ -10,9 +10,9 @@ char c;
 for (c = 'a'; c <= 'z'; c++)
 {
 if (c != 'e' && c != 'q')
-	{
-	putchar(c);
-	}
+{
+putchar(c);
+}
 }
 putchar('\n');
 return ();
