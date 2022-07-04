@@ -4,7 +4,7 @@
 /**
 * main - print a text according to number
 *
-* Return: Always (Success)
+* Return: Always (Success);
 */
 int main(void)
 {
