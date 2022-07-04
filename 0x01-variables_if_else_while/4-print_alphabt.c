@@ -6,14 +6,14 @@
 */
 int main(void)
 {
-	int c;
-	for (c = 'a'; c <= 'z'; c++)
-	{
-	if (c != 'e' && c != 'q')
-		{
-		putchar(c);
-		}
-	}
-	putchar(c);
-	return (0);
+int c;
+for (c = 'a'; c <= 'z'; c++)
+{
+if (c != 'e' && c != 'q')
+{
+putchar(c);
+}
+}
+putchar(c);
+return (0);
 }
