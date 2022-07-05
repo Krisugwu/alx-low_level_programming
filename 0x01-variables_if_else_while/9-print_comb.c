@@ -2,7 +2,7 @@
 /**
  * main - combination of number
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -13,7 +13,6 @@ putchar(c);
 if (c != '9');
 {
 putchar(',');
-
 putchar(' ');
 }
 }
