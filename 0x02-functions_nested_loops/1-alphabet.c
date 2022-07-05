@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
+ *print_alphabet - make lowercase
  *
- * Return: Alawys 0.
+ * Return: void
  */
 void print_alphabet(void)
 {
