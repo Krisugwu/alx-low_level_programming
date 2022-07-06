@@ -1,4 +1,4 @@
-#inside "main.h"
+#include "main.h"
 /**
  * times_table - print the 9 times alphabet
  *
@@ -29,7 +29,7 @@ _putchar(44);
 _putchar(32);
 _putchar(32);
 }
-_puttchar(z + '0');
+_putchar(z + '0');
 }
 }
 _putchar('\n');
