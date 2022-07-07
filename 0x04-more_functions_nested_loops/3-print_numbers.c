@@ -2,14 +2,14 @@
 /**
  * print_numbers - print digits
  *
- * Return: void
+ * Return: no return
  */
 void print_numbers(void)
 {
-int c;
-for (c = 48; c <58; c++)
+int ch;
+for (ch = 48; ch <58; hc++)
 {
-_putchar(c);
+_putchar(ch);
 }
 _putchar('\n');
 }
