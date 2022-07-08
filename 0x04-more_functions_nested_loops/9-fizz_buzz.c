@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int i;
+int n;
 n = 1;
 printf("%d", n);
 for (n = 2; n <= 100; n++)
