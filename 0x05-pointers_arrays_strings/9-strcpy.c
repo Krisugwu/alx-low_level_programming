@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strcpy - copies the string pointed to by src,
  * including the terminating null byte, to the
@@ -10,13 +9,11 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-int count = 0;
-while (count >= 0)
+int i;
+for (i = 0; src[i] != '\0'; i++)
 {
-*(dest + count) = *(src + count);
-*(dest + count) = *(src + count);
-break;
-count++;
+dest[i] = src[i];
 }
+dest[i] = '\0';
 return (dest);
 }
