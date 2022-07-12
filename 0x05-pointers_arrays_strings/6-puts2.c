@@ -2,6 +2,7 @@
 /**
  * puts2 - prints one char out of 2
  * @str: type
+ * return: no return
  */
 void puts2(char *str)
 {
