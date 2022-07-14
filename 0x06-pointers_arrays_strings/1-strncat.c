@@ -8,21 +8,18 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-int m;
-int i;
-m = 0;
-for (i = 0; i < 1000; c++)
+int count = 0, count2 = 0;
+while (*(dest + count) != '\0')
 {
-if (dest[i] == '\0')
+count++;
+}
+while (count2 >= 0)
 {
+*(dest + count) = *(src + count2);
+if (*(src + count2) == '\0')
 break;
+count++;
+count2++;
 }
-m++;
-}
-for (i = 0; src[i] != '\0' && i < n; i++)
-{
-dest[m + i] = src[i];
-}
-dest[m + i] = '\0';
 return (dest);
 }
