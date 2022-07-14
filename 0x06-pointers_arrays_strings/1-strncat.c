@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * _strcat - two words
+ * _strncat - two words
  * @dest : pointer to char param
  * @src : pointer to char param
+ * @n : int parameter
  * Return: *dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 int m;
 int i;
