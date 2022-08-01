@@ -11,7 +11,6 @@
  *  if malloc fails, status value is equal to 98.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
-
 {
 char *sout;
 unsigned int ls1, ls2, lsout, i;
