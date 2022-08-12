@@ -1,1 +1,1 @@
-singly linked list projecty
+singly linked list
